@@ -1,0 +1,40 @@
+/* Selector de etiqueta */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+}
+
+/* Selectores de clases */
+.par{
+    color : blue
+}
+
+.impar{
+    color: red;
+}
+
+.parrafo{
+    font-size: 16px;
+}
+
+.item{
+    background-color: rgba(0, 128, 0, 0.5);
+    font-weight: bold;
+}
+
+/* Extras */
+/* Selector de ID */
+#titulo{
+    background-color: blueviolet;
+    color: white;
+}
+
+/* Selectores descendentes */
+ul .itemDistinto{
+    background-color: green;
+}
+
+/* Selectores combinados */
+li.itemDistinto{
+    background-color: blue;
+}
