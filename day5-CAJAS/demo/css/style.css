@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+.contenedor{
+    background-color: blue;
+    /* Propiedades de Modelo de Caja */
+    width: 120px;
+    height: 130px; /* No usar % */
+    padding: 12px;  /* Me suma 24px demas */
+    border: solid 3px green; /* Me suma 6px demas */
+    margin: 30px;
+}
+
+
+header{
+    background-color: blueviolet;
+    height: 150px;
+}
+
+main{
+    background-color: aqua;
+    height: 1050px;
+}
+
+footer{
+    background-color: pink;
+    height: 150px;
+}
