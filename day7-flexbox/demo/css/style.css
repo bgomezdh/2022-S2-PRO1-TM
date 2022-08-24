@@ -1,0 +1,42 @@
+body{
+    background-color: aquamarine;
+}
+
+.cajaHija{
+    background-color: rgb(224, 224, 129);
+    background-repeat: no-repeat;
+    height: 165px;
+    width: 165px;
+    margin: 20px;
+}
+
+.walter{
+    background-image: url('../img/walter.jpeg');
+    order: 0;
+    align-self: flex-start;
+}
+
+.matraz{
+    background-image: url('../img/matraz.jpeg');
+    order: 2;
+    align-items: stretch;
+}
+
+.mascara{
+    background-image: url('../img/mascara.jpeg');
+    order: 1;
+    align-self: flex-end;
+}
+
+.cajaPadre{
+    background-color: #3c503c;
+    min-height: 300px;
+    /* Flexbox */
+    display: flex;
+    flex-wrap: wrap;                /* no-wrap wrap-reverse*/
+    flex-direction: row;            /* column  row-reverse column-reverse*/
+    /* Eje Main */
+    justify-content: space-evenly; /*  space-evenly flex-start flex-end space-around space-between*/
+    /* Eje Cross */
+    align-items: center;            /*  flex-end flex-start*/
+}
