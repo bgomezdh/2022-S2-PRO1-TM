@@ -1,0 +1,80 @@
+body {
+  background-image: url("../img/bg-body.png");
+  padding: 0px 150px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.listaNav {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+.itemLista {
+  width: 120px;
+  height: 20px;
+  text-align: center;
+  background: gray;
+  padding: 10px;
+}
+
+.navLink {
+  color: white;
+  font-weight: bolder;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  border-radius: 10px;
+}
+
+.links a {
+  margin: 10px;
+  color: black;
+}
+
+.banner {
+  margin: 30px 0px;
+}
+.banner img {
+  width: 100%;
+}
+
+.productos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.articleProducto {
+  width: 30%;
+}
+
+.imgProducto {
+  width: 100%;
+}
+
+.tituloProducto {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.verMas {
+  width: 100px;
+  height: 20px;
+  background-color: gray;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}

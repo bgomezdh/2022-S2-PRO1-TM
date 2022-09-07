@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <!-- Formulario -->
+
+      <form action="resultado-busqueda.html" method="get">
+        <!-- Los Inputs -->
+        <div class="contenedor-input">
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="tuNombre" id="nombre" value="" />
+        </div>
+
+        <div class="contenedor-input">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" value="" />
+        </div>
+
+        <!-- Inputs Especiales -->
+
+        <div class="contenedor-input">
+          <label for="asistencia">Asistio a Clases?</label>
+          <span>No</span><input type="radio" name="asistencia" value="no" checked/>
+          <span>Si</span><input type="radio" name="asistencia" value="si" />
+        </div>
+
+        <div class="contenedor-input">
+            <label for="hobbie">Hobbies?</label>
+            <span>Futbol</span> <input type="checkbox" name="hobbie" value="futbol">
+            <span>Beisbol</span> <input type="checkbox" name="hobbie" value="beisbol" checked>
+            <span>Cantar</span> <input type="checkbox" name="hobbie" value="cantar">
+        </div>
+
+        <!-- Password Input -->
+
+        <div class="contenedor-input">
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass" placeholder="Ingrese su pass">
+        </div>
+
+        <div class="contenedor-input">
+          <button type="submit" class="btn">Enviar</button>
+        </div>
+
+        <div class="contenedor-input">
+            <select name="pais">
+                <option value="">Seleccione un pais</option>
+                <option value="Br" >Brasil</option>
+                <option value="Ar">Argentina</option>
+            </select>
+        </div>
+
+      </form>
+    </main>
+  </body>
+</html>

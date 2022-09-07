@@ -40,3 +40,7 @@ body{
     /* Eje Cross */
     align-items: center;            /*  flex-end flex-start*/
 }
+
+.img{
+    border-radius: 90px;
+}

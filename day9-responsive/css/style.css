@@ -1,0 +1,130 @@
+/* laptos */
+body {
+  background-image: url("../img/bg-body.png");
+  padding: 0px 150px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.listaNav {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+.itemLista {
+  width: 120px;
+  height: 20px;
+  text-align: center;
+  background: gray;
+  padding: 10px;
+}
+
+.navLink {
+  color: white;
+  font-weight: bolder;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  border-radius: 10px;
+}
+
+.links a {
+  margin: 10px;
+  color: black;
+}
+
+.banner {
+  margin: 30px 0px;
+}
+.banner img {
+  width: 100%;
+}
+
+.productos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.articleProducto {
+  width: 30%;
+}
+
+.imgProducto {
+  width: 100%;
+}
+
+.tituloProducto {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.verMas {
+  width: 100px;
+  height: 20px;
+  background-color: gray;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Media query 700px hacia abajo tablets */
+@media (max-width: 750px) {
+
+}
+
+
+
+/* Media query 400px hacia abajo  para telefonos*/
+
+@media (max-width: 400px) {
+  /* Van a crear sus reglas css que van a remplazar a mis anteriores reglas */
+  body {
+    padding: 0px 15px;
+  }
+
+  .links {
+    justify-content: center;
+  }
+
+  .listaNav {
+    flex-direction: column;
+  }
+
+  .itemLista {
+    width: 100%;
+    padding: 10px 0px;
+    margin: 5px 0px;
+  }
+
+  .productos {
+    flex-direction: column;
+  }
+
+  .articleProducto {
+    width: 100%;
+  }
+
+  .verMas {
+    width: 100%;
+    padding: 10px 0px;
+  }
+
+  .logo img {
+    border-radius: 100px;
+}
+}
