@@ -11,7 +11,7 @@ body {
   background-color: #f7f8fc;
   font-family: "Roboto", sans-serif;
   color: #10182f;
-  padding: 10px 20px;
+  padding: 0;
 }
 .container {
   display: flex;
@@ -28,16 +28,16 @@ body {
   width: 300px;
 }
 
-.card-header{
-    padding: 20px;
-    display: flex;
-    justify-content: center;
+.card-header {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .card-header img {
-    height: 200px;
-    object-fit: contain;
-    border-radius: 20px;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 20px;
 }
 .card-body {
   display: flex;
@@ -88,4 +88,31 @@ body {
 }
 .user-info small {
   color: #545d7a;
+}
+
+nav {
+  background: #c31432;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+nav a{
+  color: white;
+  font-size: 40px;
+}
+
+nav a:hover{
+  color: rgb(197, 195, 195);
+  font-size: 40px;
+}
+
+a{
+  text-decoration: none;
 }
